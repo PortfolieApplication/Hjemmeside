@@ -25,7 +25,7 @@ a:hover{color:#d13f31;}
 /*-------------------------------------------------
 Menu Classes
 -------------------------------------------------*/
-.menu-wrap{ overflow:hidden; background-image: url("header.png"); background-color:#cccccc; }
+.menu-wrap{ overflow:hidden; background-image: url("header.jpg"); background-color:#cccccc; }
 .menu{margin:0 auto; width: 31.2%; background:#F5F5DC; height:300%; margin-top:40px; opacity: 0.7;}
 .menu ul li{list-style:none; float:left; width:auto;}
 .menu ul li a{ text-align:center; display:block; height:300%; line-height:300%; padding-left:30px; padding-right:30px; font-size:14px; font-family: 'Oswald', sans-serif; color:#ffffff; text-transform:uppercase; }
