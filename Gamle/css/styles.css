@@ -1,0 +1,136 @@
+/*
+************************************************************
+
+******			Lavet af Jonas T Kristensen			******
+
+************************************************************
+*/
+
+
+/*-------------------------------------------------
+Globale Classes
+-------------------------------------------------*/
+*{padding:0; margin:0;}
+body{font-family: 'Droid Serif', serif; font-size:12px; color:#9b9e9a; background:#e1ece7;}
+h1{ font-size:18px; color:#d13f31; font-family: 'Oswald', sans-serif; font-weight:normal; text-transform:uppercase;}
+h2{ font-size:14px; color:#1f7872; font-family: 'Droid Serif', serif; font-weight:normal;}
+P{ line-height:20px;}
+a{text-decoration:none; color:#1f7872;}
+a:hover{color:#d13f31;}
+.clearing { clear:both;}
+.background{ background:#ffffff;}
+.page{ width:60%; margin:0 auto;overflow:hidden; margin-left: 20%}
+.fremhæv {color:Black;}
+
+/*-------------------------------------------------
+Menu Classes
+-------------------------------------------------*/
+.menu-wrap{ overflow:hidden; background-image: url("header.jpg"); background-color:#cccccc; }
+.menu{margin:0 auto; width: 31.2%; background:#F5F5DC; height:300%; margin-top:40px; opacity: 0.7;}
+.menu ul li{list-style:none; float:left; width:auto;}
+.menu ul li a{ text-align:center; display:block; height:300%; line-height:300%; padding-left:30px; padding-right:30px; font-size:14px; font-family: 'Oswald', sans-serif; color:#ffffff; text-transform:uppercase; }
+.menu ul li a:hover{background:#e1ece7; color:#1a202c;}
+.menu ul li a.active{background:#e1ece7; color:#1a202c;}
+
+/*-------------------------------------------------
+Overskrift Classes
+-------------------------------------------------*/
+.header{margin:0 auto; width:960px; height:120px;}
+.logo{width:300px; float:left; line-height:120px;}
+.logo h1{ font-size:32px; color:#d13f31; font-weight:normal;}
+.logo h1 span{ color:#1a202c;}
+.overskrift {font-size:30px; color:#d13f31; font-family: 'Oswald', sans-serif; font-weight:normal; text-transform:uppercase; margin-top: 50px; margin-left: 500px;}
+.underoverskrift {margin-top: 2px; margin-left: 500px;}
+
+/*-------------------------------------------------
+Brødtekst Classes
+-------------------------------------------------*/
+.generic{ float:left; overflow:hidden; width:100%;}
+.generic .background{ padding:30px 30px 30px 30px;}
+.generic .title h1{ padding-bottom:20px;}
+.generic .content{overflow:hidden;}
+.generic .content h2{ padding-bottom:15px;}
+.side-bar{ width:280px; overflow:hidden; float:right; margin-top: 5px;}
+.liste ul li a {font-size: 18px; font-family: 'Oswald', sans-serif; margin: 5px;}
+
+/* Menu Styles */
+
+.third-level-menu
+{
+    position: absolute;
+    top: 0;
+    right: -150px;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.third-level-menu > li
+{
+    height: 30px;
+    background: #999999;
+}
+.third-level-menu > li:hover { background: #CCCCCC; }
+
+.second-level-menu
+{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.second-level-menu > li
+{
+    position: relative;
+    height: 30px;
+    background: #999999;
+}
+.second-level-menu > li:hover { background: #CCCCCC; }
+
+.top-level-menu
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+	margin-left: 5%;
+}
+
+.top-level-menu > li
+{ 
+    position: relative;
+    float: left;
+    height: 2%;
+    width: 12%;
+    background: #000000;
+	opacity:0.5;
+}
+.top-level-menu > li:hover { background: #000000;}
+
+.top-level-menu li:hover > ul
+{
+    /* On hover, display the next level's menu */
+    display: inline;
+}
+
+
+/* Menu Link Styles */
+
+.top-level-menu a /* Apply to all links inside the multi-level menu */
+{
+    font: bold 14px Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 0 0 10px;
+
+    /* Make the link cover the entire list item-container */
+    display: block;
+    line-height: 30px;
+}
+.top-level-menu a:hover { color: #ffffff; }
