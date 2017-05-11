@@ -3,9 +3,9 @@
 Globale Classes
 -------------------------------------------------*/
 *{padding:0; margin:0;}
-body{color:#9b9e9a; background:#f0f0f0;}
-h1{ font-size: 1.5em; font-family: 'proxima-nova.otf', sans-serif; font-weight:normal; text-transform:uppercase;}
-.header{margin: 3%; margin-left: 4%; width: 10 em; height: 3em; color: #606d80; letter-spacing: 0.107143em;}
+body{color: #9b9e9a; background: #f0f0f0;}
+h1{ font-size: 1.5em; font-family: 'proxima-nova.otf', sans-serif; font-weight: normal; text-transform: uppercase;} 
+.header{ margin-top: 3%; margin-left: 4%; width: 10 em; height: 3em; color: #606d80; letter-spacing: 0.107143em; min-width: 23%;}
 
 
 .second-level-menu{position: relative; left: 0; width: 100%; list-style: none; display: none;}
@@ -13,9 +13,8 @@ h1{ font-size: 1.5em; font-family: 'proxima-nova.otf', sans-serif; font-weight:n
 .second-level-menu > li:hover { background: #f0f0f0;}
 
 .top-level-menu {list-style: none; margin-left: 4.2%;}
-.top-level-menu > li {position: relative; float: left; height: 2%; width: 12%; background: #f0f0f0;}
+.top-level-menu > li {position: relative; float: left; height: 2%; width: 12%; background: #f0f0f0; clear:left; min-width: 23%}
 .top-level-menu li:hover > ul {display: inline;}
-
 
 
 /* Menu Link Styles */
@@ -26,9 +25,24 @@ h1{ font-size: 1.5em; font-family: 'proxima-nova.otf', sans-serif; font-weight:n
 	font-family: 'proxima-nova.otf', sans-serif;
     color: #8e959f;
     text-decoration: none;
-    padding: 0 0 0 10px;
-
+    padding: 0 0 0 1em;
+	
     /* Make the link cover the entire list item-container */
     display: block;
-    line-height: 2.4em;}
-.top-level-menu a:hover { color: #000000; }
+    line-height: 2.4em;
+}
+	
+.top-level-menu a:hover { opacity: 0.65; }
+
+.page {
+	height: 40em;
+	width: 67%;
+	float: right;
+	background: #000000;
+	margin-right: 3em;
+	margin-bottom: 3em;
+	position: relative;
+	clear: right;
+}
+
+
