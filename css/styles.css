@@ -4,8 +4,8 @@ Globale Classes
 -------------------------------------------------*/
 *{padding:0; margin:0;}
 body{color: #9b9e9a; background: #f0f0f0;}
-.h1{ color: #606d80; text-decoration: none; font-size: 1.5em; font-family: 'fonts/proxima-nova.otf', sans-serif; font-weight: normal; text-transform: uppercase;} 
-.header{ margin-top: 3%; margin-left: 4%; width: 20em; height: 3em; color: #606d80; letter-spacing: 0.107143em; min-width: 23%;}
+.h1{ color: #606d80; text-decoration: none; font-size: 1.5em; font-family: 'fonts/proxima-nova.otf', sans-serif; font-weight: normal; text-transform: uppercase; width: 30%} 
+.header{ margin-bottom:4%; margin-top: 3%; margin-left: 4%; color: #606d80; letter-spacing: 0.107143em;}
 
 
 .second-level-menu{position: relative; left: 0; width: 100%; list-style: none; display: none;}
@@ -13,7 +13,7 @@ body{color: #9b9e9a; background: #f0f0f0;}
 .second-level-menu > li:hover { background: #f0f0f0;}
 
 .top-level-menu {list-style: none; margin-left: 4.2%;}
-.top-level-menu > li {position: relative; float: left; height: 2%; width: 12%; background: #f0f0f0; clear:left; min-width: 23%}
+.top-level-menu > li {position: relative; float: left; height: 2%; width: 12%; background: #f0f0f0; clear:left; min-width: 25%}
 .top-level-menu li:hover > ul {display: inline;}
 
 
@@ -44,5 +44,6 @@ body{color: #9b9e9a; background: #f0f0f0;}
 	position: relative;
 	clear: right;
 }
+
 
 
