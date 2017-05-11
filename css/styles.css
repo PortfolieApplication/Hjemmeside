@@ -4,16 +4,16 @@ Globale Classes
 -------------------------------------------------*/
 *{padding:0; margin:0;}
 body{color: #9b9e9a; background: #f0f0f0;}
-.h1{ color: #606d80; text-decoration: none; font-size: 1.5em; font-family: 'fonts/proxima-nova.otf', sans-serif; font-weight: normal; text-transform: uppercase; min-width: 17%;} 
-.header{ margin-bottom: 2%; margin-top: 4%; margin-left: 4%; color: #606d80; letter-spacing: 0.107143em;}
+.h1{color: #606d80; text-decoration: none; font-size: 1.5em; font-family: 'fonts/proxima-nova.otf', sans-serif; font-weight: normal; text-transform: uppercase; min-width: 17%;} 
+.header{ margin-bottom: 10%; color: #606d80; letter-spacing: 0.107143em;}
 
 
-.second-level-menu{position: relative; left: 0; width: 100%; list-style: none; display: none;}
+.second-level-menu{position: relative; left: 0; list-style: none; display: none;}
 .second-level-menu > li {position: relative; background: #f0f0f0; margin-left: 0.8em;}
 .second-level-menu > li:hover { background: #f0f0f0;}
 
 .top-level-menu {list-style: none;  width: 100%;}
-.top-level-menu > li { height: 2%; background: #f0f0f0; clear:left;}
+.top-level-menu > li {margin-left: 10%; background: #f0f0f0; clear:left;}
 .top-level-menu li:hover > ul {display: inline;}
 
 
@@ -25,7 +25,6 @@ body{color: #9b9e9a; background: #f0f0f0;}
 	font-family: 'fonts/proxima-nova.otf', sans-serif;
     color: #8e959f;
     text-decoration: none;
-    padding: 0 0 0 5%;
 	
     /* Make the link cover the entire list item-container */
     display: block;
@@ -36,10 +35,11 @@ body{color: #9b9e9a; background: #f0f0f0;}
 
 .page {
 	height: 50em;
-	width:75%;
+	min-width: 60%;
 	float: right;
-	margin-right: 3em;
-	margin-bottom: 3em;
+	margin-right: 3%;
+	margin-bottom: 10%;
+	margin-top: 4%;
 	position: relative;
 	clear: right;
 	background-color: #000000;
@@ -48,9 +48,7 @@ body{color: #9b9e9a; background: #f0f0f0;}
 .menu {
 	float:left; 
 	clear: left;
-	padding: 3% 0 3% 3%;
-	width: 12%;
-	min-width: 17%
+	padding: 5% 0 5% 5%;
 	
 }
 	
