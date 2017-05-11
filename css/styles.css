@@ -59,7 +59,6 @@ body{color: #9b9e9a; background: #f0f0f0;}
 	float:left; 
 	clear: left;
 	padding: 5% 0 5% 5%;
-	
 }
 	
 .pic1 {width: 30%; height: 30%; margin: 3% 3% 3% 3%;}
@@ -74,7 +73,6 @@ body{color: #9b9e9a; background: #f0f0f0;}
 .pic5 > img {max-width: 100%;}
 .pic6 {width: 30%; height: 30%; margin: 0 3% 3% 3%;}
 .pic6 > img {max-width: 100%;}
-
 
 	
 	
