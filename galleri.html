@@ -1,20 +1,15 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"> 
+<!DOCTYPE html>
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html" charset="utf-8" /> <!-- S�tter charset -->
-		<title> Galleri </title>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8" /> <!-- Sætter charset -->
+	<title>Fotograf Anders Raagaard</title>
+
 	<!-- for FF, Chrome, Opera -->
 		<link rel="icon" type="image/png" href="css/images/bsi-16x16.png" size="16x16">
 		<link rel="icon" type="image/png" href="css/images/bsi-32x32.png" size="32x32">
 	<!-- for IE -->
 		<link rel="icon" type="image/x-icon" href="css/images/bsi.ico" >
 		<link rel="shortcut icon" type="image/x-icon" href="css/images/bsi.ico"/>
-	<!-- Ikon billede -->
-		<link rel="shortcut icon" href="billeder/ikon.jpg" />  
-	<!-- Font fra google -->
-		<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'> 
-	<!-- Font fra google -->
-		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'> 
 	<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<!-- Latest compiled and minified CSS -->
@@ -22,45 +17,39 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	<!-- Henviser til det eksterne stylesheet -->
-		<link href="css/styles.css" rel="stylesheet" type="text/css" /> 
-
+		<link href="css/styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 
+	<!-- Navbar -->
+	<nav class="navbar navbar-inverse navbar-fixe-top" id="main-navbar" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+							<span class="sr-only">Toggle Navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+					</button>
 
+					<a href="index.html" class="navbar-brand">ANDERS RAAGAARD</a>
+				</div> <!-- end navbar-header -->
 
+					<div class="collpase navbar-collapse" id="navbar-collapse">
 
-<!-- OVERSKRIFT -->
+							<ul class="nav navbar-nav">
+								<li><a href="galleri.html">Galleri</a></li>
+								<li><a href="portfolio.html">Portfolio</a></li>
+								<li><a href="kontakt.html">Kontakt</a></li>
+								<li><a href="om.html">Om mig</a></li>
+							</ul>	
+					</div> <!-- end collpase -->
+			</div> <!-- end container -->
+	</nav>
+	
 
-<div class="menu">
-	<div class="header">
-		<a class="h1"> Anders Raagaard </a>
-	</div>
+	<div class="container">
 
-
-	<ul class="top-level-menu">
-		<li>
-			<a>Galleri ▼</a>
-			<ul class="second-level-menu">
-				<li>
-					<a href="gallery.html">| Overblik</a>
-					<a href="portfolio.html">| Portfolio</a>
-				</li>
-			</ul>
-		</li>
-	</ul>
-
-
-	<ul class="top-level-menu">
-		<li>
-			<a href="about.html"> Om mig </a>
-			<a href="contact.html"> Kontakt </a>
-			<a href="login.html"> Log ind</a>
-		</li>
-	</ul>
-</div>
-
-<div class="container">
 		<!-- Gallery -->
 		<section>
 			<div class="page-header" id="section-gallery">
@@ -77,15 +66,15 @@
 				<div class="carousel-inner">
 					<div class="item active">
 							<img src="images/pic1.jpg" alt="Slider image" images="">
-							<div class="carousel-caption">Palme tr&aelig;er</div>
+							<div class="carousel-caption">Palmen</div>
 					</div>
 					<div class="item">
 							<img src="images/pic2.jpg" alt="Slider image" images="">
-							<div class="carousel-caption">S&oslash;</div>
+							<div class="carousel-caption">Floden</div>
 					</div>
 					<div class="item">
 							<img src="images/pic3.jpg" alt="Slider image" images="">
-							<div class="carousel-caption">Svamp</div>
+							<div class="carousel-caption">Svampen</div>
 					</div>
 				</div>
 
@@ -97,7 +86,18 @@
 				</a>
 			</div>
 		</section>
-	</div> <!-- end conainer -->
 
+		<!-- Footer -->
+		<footer>
+			<hr>
+			<div class="container text-center">
+					<ul class="list-inline">
+						<li><a href="https://www.instagram.com/andersraagaardl/" target="new">Instagram</a></li>
+						<li><a href="https://www.facebook.com/andersraagaardl" target="new">Facebook</a></li>
+					</ul>
+					<p>&copy; Anders Raagaard 2017.</p>
+			</div><!-- end container -->
+		</footer>
+	</div> <!-- end conainer -->
 </body>
 </html>
