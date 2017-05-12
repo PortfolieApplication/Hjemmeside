@@ -54,12 +54,100 @@
 
 
 <div class="page">
+<<<<<<< HEAD
+=======
+
+>>>>>>> a6c34ca985f41f48e37282cde9335577b157f98a
 	<div class="pic1"><img src="images/pic1.jpg" alt="Palm Tree"></div>
 	<div class="pic2"><img src="images/pic2.jpg" alt="Lake"></div>
 	<div class="pic3"><img src="images/pic3.jpg" alt="Mushroom"></div>
 	<div class="pic4"><img src="images/pic4.jpg" alt="Party"></div>
+<<<<<<< HEAD
 </div>
 
+=======
+		
+	<div class="container_form">
+	  <form action="mailto:Jonitk1999@gmail.com" method="post" enctype="text/plain">
+	  
+		<label for="NAVN">Fornavn</label>
+		<input type="text" id="NAVN" name="fornavn" placeholder="Fornavn..">
+
+		<label for="EFTERNAVN">Efternavn</label>
+		<input type="text" id="EFTERNAVN" name="efternavn" placeholder="Efternavn..">
+
+		<label for="EMAIL">Email</label>
+		<input type="text" id="EMAIL" name="email" placeholder="Email adresse..">
+		
+		<label for="ADRESSE">Adresse</label>
+		<input type="text" id="ADRESSE" name="adresse" placeholder="Adresse..">
+
+		<label for="BYNAVN">By</label>
+		<input type="text" id="BYNAVN" name="bynavn" placeholder="By..">
+		
+		<label for="POSTNR">Post Nr.</label>
+		<input type="text" id="POSTNR" name="postnr" placeholder="Post Nr..">
+		
+		<label for="MOBILNR">Mobil Nr.</label>
+		<input type="text" id="MOBILNR" name="mobilnr" placeholder="Mobil Nr..">
+		
+		<input type="checkbox" id="pic1"> Billede 1 <br><br>
+		<input type="checkbox" id="pic2"> Billede 2 <br><br>
+		<input type="checkbox" id="pic3"> Billede 3 <br><br>
+		<input type="checkbox" id="pic4"> Billede 4 <br><br>
+		
+		<input type="submit" onclick="showText();">
+		<p id="body-text"></p>
+		
+		<a OnClick="showText();">Email</a>
+		
+<script>
+				
+		function showText() {
+		
+			var fornavn = document.getElementById("NAVN").value;
+			var efternavn = document.getElementById("EFTERNAVN").value;
+			var email = document.getElementById("EMAIL").value;
+			var adresse = document.getElementById("ADRESSE").value;
+			var bynavn = document.getElementById("BYNAVN").value;
+			var postnr = document.getElementById("POSTNR").value;
+			var mobilnr = document.getElementById("MOBILNR").value;
+			var pic1 = document.getElementById("pic1").checked;
+			var pic2 = document.getElementById("pic2").checked;
+			var pic3 = document.getElementById("pic3").checked;
+			var pic4 = document.getElementById("pic4").checked;
+			
+			var fornavn = String(fornavn);
+			var efternavn = String(efternavn);
+			var email = String(email);
+			var adresse = String(adresse);
+			var bynavn = String(bynavn);
+			var postnr = String(postnr);
+			var mobilnr = String(mobilnr);
+			var pic1 = String(pic1);
+			var pic2 = String(pic2);
+			var pic3 = String(pic3);
+			var pic4 = String(pic4);
+			var subject = "Purchase";
+			var link = "Mail me!";
+			
+			var text1 = fornavn + " " + efternavn + " " + email + " " + adresse + " " + bynavn + " " + postnr + " " + mobilnr + " " + pic1 + " " + pic2 + " " + pic3 + " " + pic4;
+
+			document.write('<a target="_blank" href=mailto:' + email + '?subject=' + subject + '&body=' + text1 + '>' + link + '</a>');
+			
+			}
+			
+</script>
+		
+		<p id="body-text></p>
+		
+		
+	  </form>
+	</div>
+	
+	
+</div>
+>>>>>>> a6c34ca985f41f48e37282cde9335577b157f98a
 
 
 </body>
